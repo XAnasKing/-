@@ -1,0 +1,132 @@
+
+h2 {
+    font-size: 50px;
+        color: #a80039;
+        font-weight: 700;
+        margin-bottom: 40px;
+        margin-left: 597px;
+        margin-top: 39px;
+}
+.start {
+    font-size: 18.5px;
+        text-align: center;
+        width: 876px;
+        margin-left: 320px;
+        line-height: 2;
+}
+.programing {
+    font-weight: 500;
+        font-size: 38px;
+        color: darkred;
+        margin-left: 960px;
+}
+.image {
+    width: 782px;
+        height: 290px;
+        margin-left: 384px;
+        margin-top: 16px;
+}
+.start2 {
+    color: #512828;
+        font-size: 20px;
+        text-align: right;
+        margin-top: -25px;
+        margin-right: 315px;
+        font-weight: 400;
+        line-height: 2;
+        }
+.firist {
+font-size: 30px;
+    margin-left: 909px;
+    font-weight: 600;
+    color: darkred;
+}
+.start3 {
+    font-size: 18px;
+        text-align: center;
+        width: 876px;
+        margin-left: 331px;
+        line-height: 2;
+}
+.box1 {
+    margin-top: 50px;
+        background: #f6f5f5;
+        width: 520px;
+        line-height: 2;
+        text-align: center;
+        margin-left: 680px;
+        color: black;
+}
+.box2 {
+margin-top: -208px;
+    background: #f6f5f5;
+    width: 520px;
+    line-height: 2;
+    text-align: center;
+    margin-left: -54px;
+    color: black;
+}
+.work-steps .info .box1:hover {
+background-color: #ededed;
+}
+.work-steps .info .box2:hover {
+background-color: #ededed;
+}
+h3 {
+        color: #0d6ffc;
+            font-weight: 800;
+            margin: 13px;
+            padding-top: 15px;
+}
+.p1 {
+        width: 462px;
+            margin-left: 24px;
+}
+.start4 {
+        line-height: 2;
+        font-size: 20px;
+        width: 909px;
+        text-align: center;
+        margin-left: 301px;
+}
+.box3 {
+    background: #f6f5f5;
+        width: 520px;
+        line-height: 2;
+        text-align: center;
+        margin-left: 294px;
+        color: black;
+}
+
+.box3:hover {
+    background-color: #ededed;
+}
+.start6 {
+    line-height: 2;
+    font-size: 20px;
+    width: 909px;
+    text-align: center;
+    margin-left: 301px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Footer */
+.footer {
+    background-color: #2c4755;
+    color: white;
+    padding: 32px 10px;
+    text-align: center;
+    font-size: 23px;
+}
+
+/* End Footer */

@@ -1,0 +1,149 @@
+/* Start Articles */
+.articles {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    position: relative;
+
+}
+
+.articles .container {
+display: grid;
+margin-top: -64px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 79px;
+
+}
+
+.articles .box {
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform var(--main-transition), box-shadow var(--main-transition);
+}
+
+.articles .box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+
+.articles .box img {
+    width: 100%;
+    max-width: 100%;
+    height: 172px;
+}
+
+.articles .box .content {
+    padding: 20px;
+}
+
+.articles .box .content h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 21px;
+}
+
+.articles .box .content p {
+    margin: 10px 0 0;
+    line-height: 1.5;
+    color: darkred;
+    text-align: center;
+}
+
+.articles .box .info {
+    padding: 20px;
+    border-top: 1px solid #e6e6e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articles .box .info a {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.articles .box .info i {
+    color: var(--main-color);
+}
+
+.articles .box:hover .info i {
+    animation: moving-arrow 0.6s linear infinite;
+}
+
+@keyframes moving-arrow {
+    100% {
+        transform: translateX(10px);
+    }
+}
+h2 {
+text-align: center;
+    font-size: xx-large;
+    margin-top: 36px;
+    width: 845px;
+    margin-left: 316px;
+}
+.hr1:not([size]) {
+    height: 3px;
+    color: black;
+    width: 250px;
+    margin-left: 636px;
+    background-color: black;
+}
+.hr2:not([size]) {
+    height: 3px;
+    color: black;
+    width:186px;
+    margin-left: 666px;
+    background-color: black;
+}
+.hr3:not([size]) {
+    height: 3px;
+        color: black;
+        width: 107px;
+        margin-left: 709px;
+        background-color: black;
+}
+/* End Articles */
+ .main-titlee {
+    font-size: 35px;
+        padding-left: 660px;
+ }
+.hr4 {
+        width: 500px;
+            margin-left: 517px;
+}
+.hr5 {
+        width:1100px;
+            margin-left: 210px;
+}
+.hr6 {
+        width:700px;
+            margin-left:410px;
+}
+.imadg {
+width: 753px;
+    height: 288px;
+    margin-left: 182px;
+    margin-top: 15px;
+ }
+ .p50 {
+text-align: right;
+    font-size: 17px;
+    margin-left: 193px;
+    width: 1094px;
+    line-height: 2;
+    margin-top: 47px;
+ }
+ 
+/* End 1 */
+
+/* End 2 */
+
+/* End 3 */
+
+/* End 4 */
+
+/* End 5 */
+
+/* End 6 */
